@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="简体中文">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>集成要求 | trustdevice</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    <link rel="icon" href="/td/logo/icon.png">
+    <script>
+            var _hmt = _hmt || [];
+            (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?4430f3f32f20bc88a8d30fe02df17081";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s); })();
+            </script>
+    <meta name="description" content="">
+    <meta name="google-site-verification" content="NSp25_zH--p8r461f1YcEUt0LX9s7oRnyP3iBTvANIQ">
+    <meta name="baidu-site-verification" content="codeva-A2SMJcZcws">
+    
+    <link rel="preload" href="/td/assets/css/0.styles.a099e45a.css" as="style"><link rel="preload" href="/td/assets/js/app.185a84cc.js" as="script"><link rel="preload" href="/td/assets/js/2.2e3d5896.js" as="script"><link rel="preload" href="/td/assets/js/51.502adbfd.js" as="script"><link rel="prefetch" href="/td/assets/js/10.d1a0450d.js"><link rel="prefetch" href="/td/assets/js/11.20c64dab.js"><link rel="prefetch" href="/td/assets/js/12.3d8ad0f6.js"><link rel="prefetch" href="/td/assets/js/13.97bdc425.js"><link rel="prefetch" href="/td/assets/js/14.ffcd274e.js"><link rel="prefetch" href="/td/assets/js/15.276ed812.js"><link rel="prefetch" href="/td/assets/js/16.e2de7c8c.js"><link rel="prefetch" href="/td/assets/js/17.77d1d906.js"><link rel="prefetch" href="/td/assets/js/18.b7c44b45.js"><link rel="prefetch" href="/td/assets/js/19.f3fdc9fc.js"><link rel="prefetch" href="/td/assets/js/20.4ce2f16d.js"><link rel="prefetch" href="/td/assets/js/21.9106a342.js"><link rel="prefetch" href="/td/assets/js/22.8de5b04e.js"><link rel="prefetch" href="/td/assets/js/23.75f67d14.js"><link rel="prefetch" href="/td/assets/js/24.7c417886.js"><link rel="prefetch" href="/td/assets/js/25.7ced5130.js"><link rel="prefetch" href="/td/assets/js/26.4e29552d.js"><link rel="prefetch" href="/td/assets/js/27.c528b1c4.js"><link rel="prefetch" href="/td/assets/js/28.1858c5da.js"><link rel="prefetch" href="/td/assets/js/29.bf9bfb41.js"><link rel="prefetch" href="/td/assets/js/3.2158ca86.js"><link rel="prefetch" href="/td/assets/js/30.e127d219.js"><link rel="prefetch" href="/td/assets/js/31.af9c2105.js"><link rel="prefetch" href="/td/assets/js/32.b89c8ceb.js"><link rel="prefetch" href="/td/assets/js/33.110a9675.js"><link rel="prefetch" href="/td/assets/js/34.2ef87457.js"><link rel="prefetch" href="/td/assets/js/35.35d7147e.js"><link rel="prefetch" href="/td/assets/js/36.4f7e50ed.js"><link rel="prefetch" href="/td/assets/js/37.65bebbe2.js"><link rel="prefetch" href="/td/assets/js/38.a12717c4.js"><link rel="prefetch" href="/td/assets/js/39.4d2a5484.js"><link rel="prefetch" href="/td/assets/js/4.2885e313.js"><link rel="prefetch" href="/td/assets/js/40.e61eb3cb.js"><link rel="prefetch" href="/td/assets/js/41.b36c9bc6.js"><link rel="prefetch" href="/td/assets/js/42.6923d430.js"><link rel="prefetch" href="/td/assets/js/43.c0676a63.js"><link rel="prefetch" href="/td/assets/js/44.a4deda5e.js"><link rel="prefetch" href="/td/assets/js/45.f7fa5a91.js"><link rel="prefetch" href="/td/assets/js/46.eb23c720.js"><link rel="prefetch" href="/td/assets/js/47.21918068.js"><link rel="prefetch" href="/td/assets/js/48.6944f99d.js"><link rel="prefetch" href="/td/assets/js/49.0e78f848.js"><link rel="prefetch" href="/td/assets/js/5.102392b0.js"><link rel="prefetch" href="/td/assets/js/50.923f3a0a.js"><link rel="prefetch" href="/td/assets/js/52.39a8f530.js"><link rel="prefetch" href="/td/assets/js/53.86260b02.js"><link rel="prefetch" href="/td/assets/js/54.4536f93c.js"><link rel="prefetch" href="/td/assets/js/55.0dc4fe6a.js"><link rel="prefetch" href="/td/assets/js/56.f97e27e3.js"><link rel="prefetch" href="/td/assets/js/57.8476743f.js"><link rel="prefetch" href="/td/assets/js/58.93c9de17.js"><link rel="prefetch" href="/td/assets/js/59.0bea9c2e.js"><link rel="prefetch" href="/td/assets/js/6.ea70f831.js"><link rel="prefetch" href="/td/assets/js/7.3611bbe9.js"><link rel="prefetch" href="/td/assets/js/8.8fde20e2.js"><link rel="prefetch" href="/td/assets/js/9.29164caf.js">
+    <link rel="stylesheet" href="/td/assets/css/0.styles.a099e45a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/td/zh/" class="home-link router-link-active"><img src="/td/logo/icon.png" alt="trustdevice" class="logo"> <span class="site-name can-hide">trustdevice</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/td/zh/doc/" class="nav-link router-link-active">
+  使用文档
+</a></div><div class="nav-item"><a href="/td/zh/blog/" class="nav-link">
+  技术博客
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/td/doc/captcha/ios.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/td/zh/doc/captcha/ios.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/trustdecision" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/td/zh/doc/" class="nav-link router-link-active">
+  使用文档
+</a></div><div class="nav-item"><a href="/td/zh/blog/" class="nav-link">
+  技术博客
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">选择语言</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">选择语言</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/td/doc/captcha/ios.html" class="nav-link">
+  English
+</a></li><li class="dropdown-item"><!----> <a href="/td/zh/doc/captcha/ios.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  简体中文
+</a></li></ul></div></div> <a href="https://github.com/trustdecision" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span></span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/td/zh/doc/" aria-current="page" class="sidebar-link">总览</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>设备指纹</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/td/zh/doc/fingerprint/android.html" class="sidebar-link">Android</a></li><li><a href="/td/zh/doc/fingerprint/ios.html" class="sidebar-link">iOS</a></li><li><a href="/td/zh/doc/fingerprint/js.html" class="sidebar-link">Web</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>验证码</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/td/zh/doc/captcha/android.html" class="sidebar-link">Android</a></li><li><a href="/td/zh/doc/captcha/ios.html" aria-current="page" class="active sidebar-link">iOS</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#合规说明" class="sidebar-link">合规说明</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#环境要求" class="sidebar-link">环境要求</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#cocoapods集成" class="sidebar-link">CocoaPods集成</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#sdk目录" class="sidebar-link">SDK目录</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#引入头文件" class="sidebar-link">引入头文件</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#sdk初始化" class="sidebar-link">SDK初始化</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#获取sdk版本号" class="sidebar-link">获取SDK版本号</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#initwithoptions选传参数" class="sidebar-link">initWithOptions选传参数</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#弹出验证码弹窗" class="sidebar-link">弹出验证码弹窗</a></li><li class="sidebar-sub-header"><a href="/td/zh/doc/captcha/ios.html#错误码" class="sidebar-link">错误码</a></li></ul></li><li><a href="/td/zh/doc/captcha/js.html" class="sidebar-link">Web</a></li><li><a href="/td/zh/doc/captcha/weChat.html" class="sidebar-link">微信小程序</a></li><li><a href="/td/zh/doc/captcha/alipay.html" class="sidebar-link">支付宝小程序</a></li><li><a href="/td/zh/doc/captcha/byteDance.html" class="sidebar-link">字节小程序</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="集成要求"><a href="#集成要求" class="header-anchor">#</a> 集成要求</h1> <h2 id="合规说明"><a href="#合规说明" class="header-anchor">#</a> 合规说明</h2> <p>请注意，在贵司的App中集成同盾提供的SDK产品时:</p> <p>1.1 根据《网络安全法》《电信条例》《电信和互联网用户个人信息保护规定》等相关法律法规要求及监管实践中的标准，在贵司的最终用户首次启动App并在贵司开始采集信息之前，贵司应以交互界面或设计（如隐私政策弹窗等）向最终用户完整告知收集、使用、与第三方共享最终用户个人信息的目的、方式和范围，并征得最终用户的明示同意。</p> <p>1.2 为向贵司提供业务安全和风控服务，同盾SDK将采集、处理、使用用户的手机终端唯一标志信息（IMEI/IDFA）、Android ID、IMSI、MEID、MAC 地址、SIM 卡序列号、设备序列号、设备类型、设备型号、系统类型、地理位置、登录 IP 地址等设备信息。为确保贵司使用相关服务的合规性，前述隐私政策应涵盖对同盾SDK提供服务并采集、处理、使用相关信息的授权，以下条款内容供贵司参考，具体表述可由贵司根据贵司隐私协议的整体框架和内容自行确定：</p> <table border="1"><tr><td style="background-color:#FAFAFA;"><font size="2">同盾SDK：为了业务安全和风控，我司使用了同盾 SDK，该 SDK 需要获取您的手机终端唯一标志信息（IMEI/IDFA）、Android ID、IMSI、MEID、MAC 地址、SIM卡序列号、设备序列号、设备类型、设备型号、系统类型、地理位置、登录 IP 地址、应用程序列表、运行中进程信息、传感器（光传感器、重力传感器、磁场传感器、加速度传感器、陀螺仪传感器）相关设备信息，用于设备欺诈风险识别。</font></td></tr></table> <p>同盾隐私协议：https://www.tongdun.cn/other/privacy/id=1</p> <h2 id="环境要求"><a href="#环境要求" class="header-anchor">#</a> 环境要求</h2> <table><thead><tr><th>条目</th> <th>说明</th></tr></thead> <tbody><tr><td>兼容版本</td> <td>iOS9.0+</td></tr> <tr><td>支持架构</td> <td>armv7, arm64, x86_64</td></tr></tbody></table> <h1 id="集成步骤"><a href="#集成步骤" class="header-anchor">#</a> 集成步骤</h1> <h2 id="cocoapods集成"><a href="#cocoapods集成" class="header-anchor">#</a> CocoaPods集成</h2> <ul><li>在 Podfile 文件中对应 target 中新增 <code>pod 'TrustDecisionPro', '4.2.4.2'</code></li> <li>在 Podfile 文件中对应 target 中新增 <code>pod 'TrustDecisionCaptcha', '2.1.8'</code></li> <li>在 Podfile 所在文件夹中执行 <code>pod install --repo-update</code> 命令 (M1系列mac电脑需要执行 <code>arch -x86_64 pod install --repo-update</code> 命令)</li></ul> <h2 id="sdk目录"><a href="#sdk目录" class="header-anchor">#</a> SDK目录</h2> <p>Pods/TrustDecisionPro 文件夹下存在如下文件:</p> <ul><li>TDMobRisk.framework（终端SDK主文件，静态库类型）</li> <li>TDCorePlugin.framework （终端SDK依赖核心插件，Embed动态库类型）</li></ul> <p>Pods/TrustDecisionCaptcha 文件夹下存在如下文件:</p> <ul><li>libTDCaptcha.a（终端SDK 验证码组件，静态库类型）</li> <li>TDCaptchaResource.bundle （终端SDK 验证码组件需要用到的资源包)</li></ul> <h2 id="引入头文件"><a href="#引入头文件" class="header-anchor">#</a> 引入头文件</h2> <p>在调用的位置引入头文件</p> <div class="language-objective-c extra-class"><pre class="language-text"><code>#import &lt;TDMobRisk/TDMobRisk.h&gt;
+</code></pre></div><h2 id="sdk初始化"><a href="#sdk初始化" class="header-anchor">#</a> SDK初始化</h2> <p><strong>注意事项</strong></p> <p>安装后首次启动时，在用户同意隐私协议后，再进行SDK初始化。</p> <p>避免出现用户未同意隐私协议就进行SDK初始化采集，引发合规风险事故。</p> <p><strong>接口定义</strong></p> <div class="language-c extra-class"><pre class="language-c"><code><span class="token keyword">void</span> <span class="token punctuation">(</span><span class="token operator">*</span>initWithOptions<span class="token punctuation">)</span><span class="token punctuation">(</span>NSDictionary <span class="token operator">*</span>options<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p><strong>示例代码</strong></p> <div class="language-objective extra-class"><pre class="language-text"><code>- (void)initTrustDecisionSDK:(void (^)(NSString *blackbox))callback {
+  TDMobRiskManager_t *riskManager = [TDMobRiskManager sharedManager];
+  NSMutableDictionary *options = [NSMutableDictionary dictionary];
+
+  /*************************** 必传 ***************************/
+  // 合作方编码，如tongdun，参考下面`必传配置`
+  [options setValue:@&quot;请输入您的合作方编码&quot; forKey:@&quot;partner&quot;];
+  // 同盾平台注册的应用标识，参考下面`必传配置`
+  [options setValue:@&quot;请输入您的appKey&quot; forKey:@&quot;appKey&quot;];
+  // 同盾平台注册的应用名称，参考下面`必传配置`
+  [options setValue:@&quot;请输入您的appName&quot; forKey:@&quot;appName&quot;];
+  // 国家地区参数，参考下面`必传配置`
+  [options setValue:@&quot;请输入您所在的国家地区&quot; forKey:@&quot;country&quot;];
+
+  /*************************** 选传 ***************************/
+#ifdef DEBUG
+  // !!! DEBUG模式下若不设置此参数，app运行会闪退
+  [options setValue:@&quot;allowed&quot; forKey:@&quot;allowed&quot;];
+#endif
+  [options setValue:^(NSString *blackbox) {
+    // 此处回调在子线程
+    // 网络正常的情况下，会在200-300ms内返回结果。
+    // 网络异常的情况下，会在超时时间timeLimit（默认最长15s）后返回。
+    // 请在下方添加您对blackbox的处理逻辑
+    if (callback) {
+        callback(blackbox);
+    }
+  } forKey:@&quot;callback&quot;];
+  riskManager-&gt;initWithOptions(options);
+
+}
+</code></pre></div><p><strong>必传配置</strong></p> <table><thead><tr><th>配置 key</th> <th>定义</th> <th>说明</th> <th>场景</th> <th>示例代码</th></tr></thead> <tbody><tr><td>partner</td> <td>合作方编码</td> <td>同盾的合作方编码，请联系同盾运营获取</td> <td>所有场景</td> <td><strong>Objective C</strong> [options setValue:@&quot;请输入您的合作方编码&quot; forKey:@&quot;partner&quot;]; <strong>Swift</strong> options.updateValue(&quot;请输入您的合作方编码&quot; as NSObject, forKey: &quot;partner&quot;)</td></tr> <tr><td>appKey</td> <td>应用标识</td> <td>同盾生成的应用标识，和app绑定，用于校验app的有效性，请联系同盾运营获取 appkey创建需要用户提供应用包名、小写的sha256 签名。 ⚠️不同应用的包名签名不要使用相同的值</td> <td>所有场景</td> <td><strong>Objective C</strong> [options setValue:@&quot;请输入您的appKey&quot; forKey:@&quot;appKey&quot;]; <strong>Swift</strong> options.updateValue(&quot;请输入您的appKey&quot; as NSObject, forKey: &quot;appKey&quot;)</td></tr> <tr><td>appName</td> <td>应用名称</td> <td>同盾平台注册的应用名称，请联系同盾运营获取</td> <td>所有场景</td> <td><strong>Objective C</strong> [options setValue:@&quot;请输入您的appName&quot; forKey:@&quot;appName&quot;]; <strong>Swift</strong> options.updateValue(&quot;请输入您的appName&quot; as NSObject, forKey: &quot;appName&quot;)</td></tr> <tr><td>country</td> <td>国家地区</td> <td>国家地区参数，如cn sg us fra</td> <td>根据国家地区填写对应参数。 cn代表中国， sg代表新加坡， us代表北美， fra代表欧洲</td> <td><strong>Objective C</strong> [options setValue:@&quot;请输入您所在的国家地区&quot; forKey:@&quot;country&quot;]; <strong>Swift</strong> options.updateValue(&quot;请输入您所在的国家地区&quot; as NSObject, forKey: &quot;country&quot;)</td></tr></tbody></table> <h2 id="获取sdk版本号"><a href="#获取sdk版本号" class="header-anchor">#</a> 获取SDK版本号</h2> <p><strong>示例代码</strong></p> <div class="language-objective extra-class"><pre class="language-text"><code>// 获取SDK版本号
+TDMobRiskManager_t *riskManager = [TDMobRiskManager sharedManager];
+NSString *sdkVersion = riskManager-&gt;getSDKVersion();
+</code></pre></div><h1 id="验证码功能模块"><a href="#验证码功能模块" class="header-anchor">#</a> 验证码功能模块</h1> <h2 id="initwithoptions选传参数"><a href="#initwithoptions选传参数" class="header-anchor">#</a> initWithOptions选传参数</h2> <table><thead><tr><th>配置 key</th> <th>定义</th> <th>说明</th> <th>场景</th> <th>示例代码</th></tr></thead> <tbody><tr><td>language</td> <td>语言类型</td> <td><strong>可选项：</strong> 1-简体中文、2-繁体中文、3-英 文、4-日文、5-韩文、6-⻢来语、7-泰语、8-印尼语、9-俄 语 <strong>默认：</strong> 1-简体中文</td> <td>客户根据需要设置语言类型。 国内支持1-5 海外支持1-9</td> <td>[options setValue:@&quot;1&quot; forKey:@&quot;language&quot;];</td></tr> <tr><td>tapToClose</td> <td>点击空白处是否关闭验证码</td> <td><strong>可选项：</strong> true、false <strong>默认：</strong> false</td> <td>开启后，点击界面空白处，会关闭验证码弹窗，关闭弹窗更加便捷</td> <td>[options setValue:@(true) forKey:@&quot;tapToClose&quot;];</td></tr> <tr><td>needSeqid</td> <td>失败回调信息中是否携带seqid</td> <td><strong>可选项：</strong> true、false **默认：**true</td> <td>开启后，失败信息中会携带seqid序列号，将seqid提供给同盾，方便排查失败原因</td> <td>[options setValue:@(true) forKey:@&quot;needSeqid&quot;];</td></tr> <tr><td>hideLoadHud</td> <td>是否跳过加载动画</td> <td><strong>可选项：</strong> true、false **默认：**false</td> <td>开启后，弹出验证码弹窗时不会再显示加载动画，缩短验证时间</td> <td>[options setValue:@(true) forKey:@&quot;hideLoadHud&quot;];</td></tr> <tr><td>hideWebCloseButton</td> <td>是否隐藏webview的关闭按钮</td> <td><strong>可选项：</strong> true、false **默认：**false</td> <td>需要强制完成验证码验证的场景</td> <td>[options setValue:@(true) forKey:@&quot;hideWebCloseButton&quot;];</td></tr> <tr><td>openLog</td> <td>是否打开log</td> <td><strong>可选项：</strong> true、false **默认：**false</td> <td>开启后，调试时控制台会输出更多的log信息，方便排查问题</td> <td>[options setValue:@(true) forKey:@&quot;openLog&quot;];</td></tr> <tr><td>skipCaptcha</td> <td>是否跳过同盾验证码验证</td> <td><strong>可选项：</strong> true、false **默认：**false</td> <td>开启将不会进行验证码的验证，同时返回4000错误码，用于动态设置是否使用同盾验证码SDK验证的场景</td> <td>[options setValue:@(true) forKey:@&quot;skipCaptcha&quot;];</td></tr> <tr><td>mfaId</td> <td>MFA产品</td> <td><strong>可选项：</strong> string **默认：**nil</td> <td>如果您接入了MFA产品（未对接MFA，可忽略该说明），请将MFA流程中获取的 <code>mfaid</code>传递给验证码配置参数</td> <td>[options setValue:@&quot;mfaId string&quot; forKey:@&quot;mfaId&quot;];</td></tr></tbody></table> <h2 id="弹出验证码弹窗"><a href="#弹出验证码弹窗" class="header-anchor">#</a> 弹出验证码弹窗</h2> <p><strong>showCaptcha函数</strong></p> <p>[TDMobRiskManager sharedManager]-&gt;showCaptcha 函数 用于显示验证码弹窗，其接口定义如下</p> <div class="language- extra-class"><pre class="language-text"><code>// 显示验证码弹窗
+// @param superView 弹窗显示在的父视图，UIView 类型
+// @param block 结果回调的block
+void (*showCaptcha)(id superView,TongdunShowCaptchaBlock block);
+</code></pre></div><p><strong>回调参数结构体TongdunShowCaptchaResultStruct</strong></p> <p>我们使用TongdunShowCaptchaResultStruct 结构体存储回调的结果；</p> <div class="language- extra-class"><pre class="language-text"><code>typedef enum {
+    // 验证码校验成功，此时可以获取到有效的 validateToken；
+    TongdunShowCaptchaResultTypeSuccess,
+    // 验证码校验失败，可以获取错误码 errorCode和errorMsg，根据文档中的`错误码`排查原因；
+    TongdunShowCaptchaResultTypeFailed,
+    // 验证码弹窗成功，等待被验证；
+    TongdunShowCaptchaResultTypeReady,
+} TongdunShowCaptchaResultType;
+
+
+typedef struct _TongdunShowCaptchaResultStruct{
+    // 返回的结果类型
+    TongdunShowCaptchaResultType resultType;
+    // 返回成功后，返回的验证码的token
+    const char*validateToken;
+    // 返回失败后，返回的错误码，可以根据文档排查原因
+    NSInteger errorCode;
+    // 返回失败后，返回的错误信息
+    const char*errorMsg;
+}TongdunShowCaptchaResultStruct;
+</code></pre></div><p><strong>示例代码</strong></p> <div class="language-objective extra-class"><pre class="language-text"><code>- (void)showCaptcha {
+    UIWindow * keyWindow = [UIApplication sharedApplication].keyWindow;
+    TDMobRiskManager_t *riskManager = [TDMobRiskManager sharedManager];
+    riskManager-&gt;showCaptcha(keyWindow,^(TongdunShowCaptchaResultStruct resultStruct) {
+        switch (resultStruct.resultType) {
+            case TongdunShowCaptchaResultTypeSuccess:
+            {
+                NSString * validateToken = @(resultStruct.validateToken);
+                NSLog(@&quot;获取同盾验证码成功！！！,validateToken:%@&quot;,validateToken);
+            }
+                break;
+            case TongdunShowCaptchaResultTypeFailed:
+            {
+                NSString * errorMsg = @(resultStruct.errorMsg);
+                NSLog(@&quot;获取同盾验证码失败！！！,errorCode:%ld,errorMsg:%@&quot;,resultStruct.errorCode,errorMsg);
+            }
+                break;
+            case TongdunShowCaptchaResultTypeReady:
+                NSLog(@&quot;验证码弹窗成功，等待被验证！！！&quot;);
+                break;
+            default:
+                break;
+        }
+    });
+}
+</code></pre></div><h2 id="错误码"><a href="#错误码" class="header-anchor">#</a> 错误码</h2> <p>验证码功能模块的错误码会通过 showCaptcha 函数输出</p> <table><thead><tr><th>错误码</th> <th>错误信息</th> <th>处理方式</th></tr></thead> <tbody><tr><td>1001</td> <td>关闭了验证码窗口</td> <td>弹出验证码后，用户手动取消了验证码，不需要处理</td></tr> <tr><td>2001</td> <td>请求参数异常，请检查参数</td> <td>请检查appName和partnerCode参数</td></tr> <tr><td>2100</td> <td>请求参数异常，请检查参数</td> <td>请检查传递参数</td></tr> <tr><td>2101</td> <td>请求参数异常，请检查参数</td> <td>请求过程出错，请联系运营</td></tr> <tr><td>2102</td> <td>请求参数异常，请检查参数</td> <td>参数缺失，请检查参数</td></tr> <tr><td>2111</td> <td>验证⻚面网络错误</td> <td>稍后再试，或者请联系运营</td></tr> <tr><td>2112</td> <td>验证⻚面操作太频繁</td> <td>稍后再试</td></tr> <tr><td>2113</td> <td>未知错误</td> <td>未知错误，请联系运营</td></tr> <tr><td>2114</td> <td>关闭了验证码窗口</td> <td>点击了验证码关闭按钮，不需要处理</td></tr> <tr><td>2115</td> <td>验证⻚面网络错误</td> <td>网络资源加载失败</td></tr> <tr><td>2116</td> <td>验证⻚面网络错误</td> <td>网络资源加载失败</td></tr> <tr><td>2202</td> <td>验证成功</td> <td>验证结果成功，不需要处理</td></tr> <tr><td>2301</td> <td>未购买此服务</td> <td>请联系运营</td></tr> <tr><td>2302</td> <td>流量已被禁用</td> <td>请联系运营</td></tr> <tr><td>2303</td> <td>流量不足</td> <td>请联系运营</td></tr> <tr><td>2304</td> <td>服务已过期</td> <td>请联系运营</td></tr> <tr><td>2305</td> <td>日流量已封顶</td> <td>请联系运营</td></tr> <tr><td>2600</td> <td>系统繁忙，请稍后再试</td> <td>系统繁忙，请稍后再试</td></tr> <tr><td>2601</td> <td>验证失败，稍后重试</td> <td>验证失败，请稍后重试</td></tr> <tr><td>2602</td> <td>验证失败，稍后重试</td> <td>验证失败，请稍后重试</td></tr> <tr><td>2603</td> <td>验证失败，稍后重试</td> <td>验证失败，请稍后重试</td></tr> <tr><td>2604</td> <td>验证失败，稍后重试</td> <td>刷新频繁，请稍后重试</td></tr> <tr><td>2605</td> <td>验证失败，稍后重试</td> <td>获取验证码信息失败</td></tr> <tr><td>2702</td> <td>验证失败，稍后重试</td> <td>解析错误，请稍后重试</td></tr> <tr><td>3001</td> <td>SSL证书校验失败</td> <td>请关闭网络代理工具</td></tr> <tr><td>3002</td> <td>验证页面加载出错</td> <td>刷新网络后重试</td></tr> <tr><td>3003</td> <td>验证⻚面加载超时</td> <td>检查网络后重试</td></tr> <tr><td>4000</td> <td>验证逻辑跳过</td> <td>开发者手动处理验证跳过逻辑</td></tr> <tr><td>9000</td> <td>设备指纹没有挂载</td> <td>集成验证码需要先集成设备指纹</td></tr> <tr><td>9001</td> <td>没有网络</td> <td>请检查网络连接</td></tr> <tr><td>9002</td> <td>请求超时</td> <td>检查网络，稍后重试</td></tr> <tr><td>9003</td> <td>返回结果异常</td> <td>服务端错误，返回结果异常，联系技术支持</td></tr> <tr><td>9004</td> <td>全局加载超时</td> <td>检查网络，稍后重试</td></tr></tbody></table> <h1 id="faq"><a href="#faq" class="header-anchor">#</a> FAQ</h1> <p><strong>Q1</strong>：引入终端SDK后，工程无法再进行 Xcode 调试，如何解决？</p> <p><strong>A1</strong>：请参考 <a href="https://doc.trustdecision.com/API?article=37022&amp;version=152#SDK%E5%88%9D%E5%A7%8B%E5%8C%96" target="_blank" rel="noopener noreferrer">SDK初始化<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a> 在终端SDK初始化时，加入如下参数</p> <div class="language-objective extra-class"><pre class="language-text"><code>[options setValue:@&quot;allowed&quot; forKey:@&quot;allowed&quot;];
+</code></pre></div></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">:</span> <span class="time">2023/06/07 16:19:48</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/td/zh/doc/captcha/android.html" class="prev">
+        Android
+      </a></span> <span class="next"><a href="/td/zh/doc/captcha/js.html">
+        Web
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><div></div></div></div>
+    <script src="/td/assets/js/app.185a84cc.js" defer></script><script src="/td/assets/js/2.2e3d5896.js" defer></script><script src="/td/assets/js/51.502adbfd.js" defer></script>
+  </body>
+</html>
